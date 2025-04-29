@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/StockSimulator.dir/src/main.cpp.o CMakeFiles/StockSimulator.dir/src/Stock.cpp.o CMakeFiles/StockSimulator.dir/src/Utils.cpp.o CMakeFiles/StockSimulator.dir/src/Market.cpp.o -o StockSimulator
