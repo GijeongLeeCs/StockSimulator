@@ -100,24 +100,10 @@ CMakeFiles/StockSimulator.dir/src/Stock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockSimulator.dir/src/Stock.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lkj1769/Downloads/StockSimulator/src/Stock.cpp -o CMakeFiles/StockSimulator.dir/src/Stock.cpp.s
 
-CMakeFiles/StockSimulator.dir/src/Utils.cpp.o: CMakeFiles/StockSimulator.dir/flags.make
-CMakeFiles/StockSimulator.dir/src/Utils.cpp.o: /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp
-CMakeFiles/StockSimulator.dir/src/Utils.cpp.o: CMakeFiles/StockSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StockSimulator.dir/src/Utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StockSimulator.dir/src/Utils.cpp.o -MF CMakeFiles/StockSimulator.dir/src/Utils.cpp.o.d -o CMakeFiles/StockSimulator.dir/src/Utils.cpp.o -c /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp
-
-CMakeFiles/StockSimulator.dir/src/Utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StockSimulator.dir/src/Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp > CMakeFiles/StockSimulator.dir/src/Utils.cpp.i
-
-CMakeFiles/StockSimulator.dir/src/Utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockSimulator.dir/src/Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp -o CMakeFiles/StockSimulator.dir/src/Utils.cpp.s
-
 CMakeFiles/StockSimulator.dir/src/Market.cpp.o: CMakeFiles/StockSimulator.dir/flags.make
 CMakeFiles/StockSimulator.dir/src/Market.cpp.o: /Users/lkj1769/Downloads/StockSimulator/src/Market.cpp
 CMakeFiles/StockSimulator.dir/src/Market.cpp.o: CMakeFiles/StockSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StockSimulator.dir/src/Market.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StockSimulator.dir/src/Market.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StockSimulator.dir/src/Market.cpp.o -MF CMakeFiles/StockSimulator.dir/src/Market.cpp.o.d -o CMakeFiles/StockSimulator.dir/src/Market.cpp.o -c /Users/lkj1769/Downloads/StockSimulator/src/Market.cpp
 
 CMakeFiles/StockSimulator.dir/src/Market.cpp.i: cmake_force
@@ -128,23 +114,55 @@ CMakeFiles/StockSimulator.dir/src/Market.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockSimulator.dir/src/Market.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lkj1769/Downloads/StockSimulator/src/Market.cpp -o CMakeFiles/StockSimulator.dir/src/Market.cpp.s
 
+CMakeFiles/StockSimulator.dir/src/Utils.cpp.o: CMakeFiles/StockSimulator.dir/flags.make
+CMakeFiles/StockSimulator.dir/src/Utils.cpp.o: /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp
+CMakeFiles/StockSimulator.dir/src/Utils.cpp.o: CMakeFiles/StockSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StockSimulator.dir/src/Utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StockSimulator.dir/src/Utils.cpp.o -MF CMakeFiles/StockSimulator.dir/src/Utils.cpp.o.d -o CMakeFiles/StockSimulator.dir/src/Utils.cpp.o -c /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp
+
+CMakeFiles/StockSimulator.dir/src/Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StockSimulator.dir/src/Utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp > CMakeFiles/StockSimulator.dir/src/Utils.cpp.i
+
+CMakeFiles/StockSimulator.dir/src/Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockSimulator.dir/src/Utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp -o CMakeFiles/StockSimulator.dir/src/Utils.cpp.s
+
+CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o: CMakeFiles/StockSimulator.dir/flags.make
+CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o: /Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp
+CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o: CMakeFiles/StockSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o -MF CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o.d -o CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o -c /Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp
+
+CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp > CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.i
+
+CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp -o CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.s
+
 # Object files for target StockSimulator
 StockSimulator_OBJECTS = \
 "CMakeFiles/StockSimulator.dir/src/main.cpp.o" \
 "CMakeFiles/StockSimulator.dir/src/Stock.cpp.o" \
+"CMakeFiles/StockSimulator.dir/src/Market.cpp.o" \
 "CMakeFiles/StockSimulator.dir/src/Utils.cpp.o" \
-"CMakeFiles/StockSimulator.dir/src/Market.cpp.o"
+"CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o"
 
 # External object files for target StockSimulator
 StockSimulator_EXTERNAL_OBJECTS =
 
 StockSimulator: CMakeFiles/StockSimulator.dir/src/main.cpp.o
 StockSimulator: CMakeFiles/StockSimulator.dir/src/Stock.cpp.o
-StockSimulator: CMakeFiles/StockSimulator.dir/src/Utils.cpp.o
 StockSimulator: CMakeFiles/StockSimulator.dir/src/Market.cpp.o
+StockSimulator: CMakeFiles/StockSimulator.dir/src/Utils.cpp.o
+StockSimulator: CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o
 StockSimulator: CMakeFiles/StockSimulator.dir/build.make
+StockSimulator: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
+StockSimulator: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 StockSimulator: CMakeFiles/StockSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable StockSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable StockSimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StockSimulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

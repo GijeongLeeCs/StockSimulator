@@ -129,6 +129,30 @@ StockSimulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/build
 .PHONY : StockSimulator/fast
 
+src/AlphaVantage.o: src/AlphaVantage.cpp.o
+.PHONY : src/AlphaVantage.o
+
+# target to build an object file
+src/AlphaVantage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o
+.PHONY : src/AlphaVantage.cpp.o
+
+src/AlphaVantage.i: src/AlphaVantage.cpp.i
+.PHONY : src/AlphaVantage.i
+
+# target to preprocess a source file
+src/AlphaVantage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.i
+.PHONY : src/AlphaVantage.cpp.i
+
+src/AlphaVantage.s: src/AlphaVantage.cpp.s
+.PHONY : src/AlphaVantage.s
+
+# target to generate assembly for a file
+src/AlphaVantage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.s
+.PHONY : src/AlphaVantage.cpp.s
+
 src/Market.o: src/Market.cpp.o
 .PHONY : src/Market.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... StockSimulator"
+	@echo "... src/AlphaVantage.o"
+	@echo "... src/AlphaVantage.i"
+	@echo "... src/AlphaVantage.s"
 	@echo "... src/Market.o"
 	@echo "... src/Market.i"
 	@echo "... src/Market.s"

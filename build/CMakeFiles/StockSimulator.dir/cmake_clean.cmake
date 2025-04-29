@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o"
+  "CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o.d"
   "CMakeFiles/StockSimulator.dir/src/Market.cpp.o"
   "CMakeFiles/StockSimulator.dir/src/Market.cpp.o.d"
   "CMakeFiles/StockSimulator.dir/src/Stock.cpp.o"

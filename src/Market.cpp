@@ -1,4 +1,6 @@
 #include "Market.h"
+#include <iostream>
+#include <iomanip>
 #include <chrono>
 
 Market::Market() : isRunning(false) {
@@ -28,11 +30,15 @@ void Market::printPrices() const {
     }
 }
 
+const std::vector<Stock>& Market::getStocks() const {
+    return stocks;
+}
+
 void Market::runSimulation() {
     while (isRunning) {
         for (auto& stock : stocks) {
-            stock.updatePrice();
+            stock.updatePriceFromAPI();
         }
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        std::this_thread::sleep_for(std::chrono::minutes(1)); // Respect API rate limits
     }
 }

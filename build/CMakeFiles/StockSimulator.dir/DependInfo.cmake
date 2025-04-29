@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp" "CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o" "gcc" "CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o.d"
   "/Users/lkj1769/Downloads/StockSimulator/src/Market.cpp" "CMakeFiles/StockSimulator.dir/src/Market.cpp.o" "gcc" "CMakeFiles/StockSimulator.dir/src/Market.cpp.o.d"
   "/Users/lkj1769/Downloads/StockSimulator/src/Stock.cpp" "CMakeFiles/StockSimulator.dir/src/Stock.cpp.o" "gcc" "CMakeFiles/StockSimulator.dir/src/Stock.cpp.o.d"
   "/Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp" "CMakeFiles/StockSimulator.dir/src/Utils.cpp.o" "gcc" "CMakeFiles/StockSimulator.dir/src/Utils.cpp.o.d"

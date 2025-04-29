@@ -1,10 +1,11 @@
 #include "Stock.h"
-#include <algorithm>
-
-thread_local std::mt19937 Stock::gen(std::random_device{}());
+#include "AlphaVantage.h"
 
 Stock::Stock(const std::string& symbol, double price)
-    : symbol(symbol), basePrice(price), currentPrice(price) {}
+    : symbol(symbol), basePrice(price), currentPrice(price) {
+    history = AlphaVantage::getDailyPrices(symbol);
+    if (history.empty()) history.push_back(price);
+}
 
 Stock::Stock(Stock&& other) noexcept
     : symbol(std::move(other.symbol)),
@@ -22,14 +23,21 @@ Stock& Stock::operator=(Stock&& other) noexcept {
     return *this;
 }
 
-void Stock::updatePrice() {
+void Stock::updatePriceFromAPI() {
+    double newPrice = AlphaVantage::getRealTimePrice(symbol);
+    if (newPrice > 0) {
+        setPrice(newPrice);
+    }
+}
+
+void Stock::setPrice(double price) {
     std::lock_guard<std::mutex> lock(priceMutex);
-    std::normal_distribution<double> dist(0.0, 2.0);
-    currentPrice += dist(gen) * basePrice * 0.01;
-    history.push_back(currentPrice);
+    currentPrice = price;
+    history.push_back(price);
 }
 
 double Stock::getPrice() const {
+    std::lock_guard<std::mutex> lock(priceMutex);
     return currentPrice;
 }
 
@@ -38,5 +46,6 @@ const std::string& Stock::getSymbol() const {
 }
 
 const std::vector<double>& Stock::getHistory() const {
+    std::lock_guard<std::mutex> lock(priceMutex);
     return history;
 }

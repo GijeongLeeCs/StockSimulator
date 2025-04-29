@@ -16,7 +16,8 @@ public:
     Stock(Stock&& other) noexcept;
     Stock& operator=(Stock&& other) noexcept;
 
-    void updatePrice();
+    void updatePriceFromAPI();
+    void setPrice(double price);
     double getPrice() const;
     const std::string& getSymbol() const;
     const std::vector<double>& getHistory() const;
@@ -27,5 +28,4 @@ private:
     double currentPrice;
     std::vector<double> history;
     mutable std::mutex priceMutex;
-    static thread_local std::mt19937 gen;
 };
