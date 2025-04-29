@@ -128,19 +128,19 @@ CMakeFiles/StockSimulator.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockSimulator.dir/src/Utils.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lkj1769/Downloads/StockSimulator/src/Utils.cpp -o CMakeFiles/StockSimulator.dir/src/Utils.cpp.s
 
-CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o: CMakeFiles/StockSimulator.dir/flags.make
-CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o: /Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp
-CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o: CMakeFiles/StockSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o -MF CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o.d -o CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o -c /Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp
+CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o: CMakeFiles/StockSimulator.dir/flags.make
+CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o: /Users/lkj1769/Downloads/StockSimulator/src/YahooFinance.cpp
+CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o: CMakeFiles/StockSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lkj1769/Downloads/StockSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o -MF CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o.d -o CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o -c /Users/lkj1769/Downloads/StockSimulator/src/YahooFinance.cpp
 
-CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp > CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.i
+CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lkj1769/Downloads/StockSimulator/src/YahooFinance.cpp > CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.i
 
-CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lkj1769/Downloads/StockSimulator/src/AlphaVantage.cpp -o CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.s
+CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lkj1769/Downloads/StockSimulator/src/YahooFinance.cpp -o CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.s
 
 # Object files for target StockSimulator
 StockSimulator_OBJECTS = \
@@ -148,7 +148,7 @@ StockSimulator_OBJECTS = \
 "CMakeFiles/StockSimulator.dir/src/Stock.cpp.o" \
 "CMakeFiles/StockSimulator.dir/src/Market.cpp.o" \
 "CMakeFiles/StockSimulator.dir/src/Utils.cpp.o" \
-"CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o"
+"CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o"
 
 # External object files for target StockSimulator
 StockSimulator_EXTERNAL_OBJECTS =
@@ -157,7 +157,7 @@ StockSimulator: CMakeFiles/StockSimulator.dir/src/main.cpp.o
 StockSimulator: CMakeFiles/StockSimulator.dir/src/Stock.cpp.o
 StockSimulator: CMakeFiles/StockSimulator.dir/src/Market.cpp.o
 StockSimulator: CMakeFiles/StockSimulator.dir/src/Utils.cpp.o
-StockSimulator: CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o
+StockSimulator: CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o
 StockSimulator: CMakeFiles/StockSimulator.dir/build.make
 StockSimulator: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 StockSimulator: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd

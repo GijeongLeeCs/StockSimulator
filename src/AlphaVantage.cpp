@@ -13,7 +13,7 @@ static size_t WriteCallback(void* contents, size_t size, size_t nmemb, std::stri
 double AlphaVantage::getRealTimePrice(const std::string& symbol) {
     CURL* curl = curl_easy_init();
     std::string response;
-    const std::string apiKey = "YOUR_API_KEY"; // Replace with your key
+    const std::string apiKey = "Z44KT50EOT2M7RNA"; 
     const std::string url = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=" + 
                           symbol + "&apikey=" + apiKey;
 
@@ -38,7 +38,7 @@ std::vector<double> AlphaVantage::getDailyPrices(const std::string& symbol) {
     std::vector<double> prices;
     CURL* curl = curl_easy_init();
     std::string response;
-    const std::string apiKey = "YOUR_API_KEY"; // Replace with your key
+    const std::string apiKey = "Z44KT50EOT2M7RNA"; 
     const std::string url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=" + 
                           symbol + "&apikey=" + apiKey + "&outputsize=compact";
 

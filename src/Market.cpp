@@ -4,9 +4,9 @@
 #include <chrono>
 
 Market::Market() : isRunning(false) {
-    stocks.emplace_back("AAPL", 150.0);
-    stocks.emplace_back("GOOG", 2800.0);
-    stocks.emplace_back("TSLA", 700.0);
+    stocks.emplace_back("AAPL", 0);
+    stocks.emplace_back("GOOG", 0);
+    stocks.emplace_back("TSLA", 0);
 }
 
 Market::~Market() { stop(); }
@@ -39,6 +39,6 @@ void Market::runSimulation() {
         for (auto& stock : stocks) {
             stock.updatePriceFromAPI();
         }
-        std::this_thread::sleep_for(std::chrono::minutes(1)); // Respect API rate limits
+        std::this_thread::sleep_for(std::chrono::seconds(30)); // Respect API rate limits
     }
 }

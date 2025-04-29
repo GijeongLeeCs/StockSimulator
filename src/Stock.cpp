@@ -1,9 +1,9 @@
 #include "Stock.h"
-#include "AlphaVantage.h"
+#include "YahooFinance.h"
 
 Stock::Stock(const std::string& symbol, double price)
     : symbol(symbol), basePrice(price), currentPrice(price) {
-    history = AlphaVantage::getDailyPrices(symbol);
+    history = YahooFinance::getDailyPrices(symbol);
     if (history.empty()) history.push_back(price);
 }
 
@@ -24,7 +24,7 @@ Stock& Stock::operator=(Stock&& other) noexcept {
 }
 
 void Stock::updatePriceFromAPI() {
-    double newPrice = AlphaVantage::getRealTimePrice(symbol);
+    double newPrice = YahooFinance::getRealTimePrice(symbol);
     if (newPrice > 0) {
         setPrice(newPrice);
     }

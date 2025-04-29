@@ -129,30 +129,6 @@ StockSimulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/build
 .PHONY : StockSimulator/fast
 
-src/AlphaVantage.o: src/AlphaVantage.cpp.o
-.PHONY : src/AlphaVantage.o
-
-# target to build an object file
-src/AlphaVantage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.o
-.PHONY : src/AlphaVantage.cpp.o
-
-src/AlphaVantage.i: src/AlphaVantage.cpp.i
-.PHONY : src/AlphaVantage.i
-
-# target to preprocess a source file
-src/AlphaVantage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.i
-.PHONY : src/AlphaVantage.cpp.i
-
-src/AlphaVantage.s: src/AlphaVantage.cpp.s
-.PHONY : src/AlphaVantage.s
-
-# target to generate assembly for a file
-src/AlphaVantage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/AlphaVantage.cpp.s
-.PHONY : src/AlphaVantage.cpp.s
-
 src/Market.o: src/Market.cpp.o
 .PHONY : src/Market.o
 
@@ -225,6 +201,30 @@ src/Utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/Utils.cpp.s
 .PHONY : src/Utils.cpp.s
 
+src/YahooFinance.o: src/YahooFinance.cpp.o
+.PHONY : src/YahooFinance.o
+
+# target to build an object file
+src/YahooFinance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.o
+.PHONY : src/YahooFinance.cpp.o
+
+src/YahooFinance.i: src/YahooFinance.cpp.i
+.PHONY : src/YahooFinance.i
+
+# target to preprocess a source file
+src/YahooFinance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.i
+.PHONY : src/YahooFinance.cpp.i
+
+src/YahooFinance.s: src/YahooFinance.cpp.s
+.PHONY : src/YahooFinance.s
+
+# target to generate assembly for a file
+src/YahooFinance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockSimulator.dir/build.make CMakeFiles/StockSimulator.dir/src/YahooFinance.cpp.s
+.PHONY : src/YahooFinance.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -258,9 +258,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... StockSimulator"
-	@echo "... src/AlphaVantage.o"
-	@echo "... src/AlphaVantage.i"
-	@echo "... src/AlphaVantage.s"
 	@echo "... src/Market.o"
 	@echo "... src/Market.i"
 	@echo "... src/Market.s"
@@ -270,6 +267,9 @@ help:
 	@echo "... src/Utils.o"
 	@echo "... src/Utils.i"
 	@echo "... src/Utils.s"
+	@echo "... src/YahooFinance.o"
+	@echo "... src/YahooFinance.i"
+	@echo "... src/YahooFinance.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

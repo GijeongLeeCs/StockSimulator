@@ -14,7 +14,7 @@ add_executable(StockSimulator
     src/Stock.cpp
     src/Market.cpp
     src/Utils.cpp
-    src/AlphaVantage.cpp
+    src/YahooFinance.cpp
 )
 
 target_include_directories(StockSimulator PRIVATE src)
